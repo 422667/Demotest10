@@ -16,7 +16,7 @@ public class TestQA {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://developer.salesforce.com/signup?d=70130000000td6N");
-		Select drpdwn = new Select(driver.findElementById("job_role"));
+		
 		
 		
 		
